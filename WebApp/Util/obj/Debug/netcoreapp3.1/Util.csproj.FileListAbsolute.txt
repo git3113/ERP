@@ -1,0 +1,9 @@
+F:\Project\WebApp\Util\bin\Debug\netcoreapp3.1\Util.deps.json
+F:\Project\WebApp\Util\bin\Debug\netcoreapp3.1\Util.dll
+F:\Project\WebApp\Util\bin\Debug\netcoreapp3.1\Util.pdb
+F:\Project\WebApp\Util\obj\Debug\netcoreapp3.1\Util.csprojAssemblyReference.cache
+F:\Project\WebApp\Util\obj\Debug\netcoreapp3.1\Util.AssemblyInfoInputs.cache
+F:\Project\WebApp\Util\obj\Debug\netcoreapp3.1\Util.AssemblyInfo.cs
+F:\Project\WebApp\Util\obj\Debug\netcoreapp3.1\Util.csproj.CoreCompileInputs.cache
+F:\Project\WebApp\Util\obj\Debug\netcoreapp3.1\Util.dll
+F:\Project\WebApp\Util\obj\Debug\netcoreapp3.1\Util.pdb

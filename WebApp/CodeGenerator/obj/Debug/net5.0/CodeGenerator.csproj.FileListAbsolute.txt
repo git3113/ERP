@@ -1,0 +1,11 @@
+F:\Project\WebApp\CodeGenerator\bin\Debug\net5.0\CodeGenerator.deps.json
+F:\Project\WebApp\CodeGenerator\bin\Debug\net5.0\CodeGenerator.dll
+F:\Project\WebApp\CodeGenerator\bin\Debug\net5.0\ref\CodeGenerator.dll
+F:\Project\WebApp\CodeGenerator\bin\Debug\net5.0\CodeGenerator.pdb
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\CodeGenerator.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\CodeGenerator.AssemblyInfoInputs.cache
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\CodeGenerator.AssemblyInfo.cs
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\CodeGenerator.csproj.CoreCompileInputs.cache
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\CodeGenerator.dll
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\ref\CodeGenerator.dll
+F:\Project\WebApp\CodeGenerator\obj\Debug\net5.0\CodeGenerator.pdb

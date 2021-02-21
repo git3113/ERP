@@ -1,0 +1,15 @@
+F:\Project\WebApp\Util\bin\Debug\net5.0\Util.deps.json
+F:\Project\WebApp\Util\bin\Debug\net5.0\Util.dll
+F:\Project\WebApp\Util\bin\Debug\net5.0\ref\Util.dll
+F:\Project\WebApp\Util\bin\Debug\net5.0\Util.pdb
+F:\Project\WebApp\Util\bin\Debug\net5.0\Enum.dll
+F:\Project\WebApp\Util\bin\Debug\net5.0\Enum.pdb
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.csprojAssemblyReference.cache
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.AssemblyInfoInputs.cache
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.AssemblyInfo.cs
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.csproj.CoreCompileInputs.cache
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.csproj.CopyComplete
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.dll
+F:\Project\WebApp\Util\obj\Debug\net5.0\ref\Util.dll
+F:\Project\WebApp\Util\obj\Debug\net5.0\Util.pdb
