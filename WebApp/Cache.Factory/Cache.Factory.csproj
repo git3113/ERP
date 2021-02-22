@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cache.Interface\Cache.Interface.csproj" />
+    <ProjectReference Include="..\MemoryCache\MemoryCache.csproj" />
+    <ProjectReference Include="..\RedisCache\RedisCache.csproj" />
+    <ProjectReference Include="..\Util\Util.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+F:\Project\WebApp\Cache.Interface\bin\Debug\net5.0\Cache.Interface.deps.json
+F:\Project\WebApp\Cache.Interface\bin\Debug\net5.0\Cache.Interface.dll
+F:\Project\WebApp\Cache.Interface\bin\Debug\net5.0\ref\Cache.Interface.dll
+F:\Project\WebApp\Cache.Interface\bin\Debug\net5.0\Cache.Interface.pdb
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.AssemblyInfoInputs.cache
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.AssemblyInfo.cs
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.csproj.CoreCompileInputs.cache
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.dll
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\ref\Cache.Interface.dll
+F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.pdb

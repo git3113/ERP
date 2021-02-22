@@ -1,0 +1,9 @@
+F:\Project\WebApp\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+F:\Project\WebApp\Model\bin\Debug\netcoreapp3.1\Model.dll
+F:\Project\WebApp\Model\bin\Debug\netcoreapp3.1\Model.pdb
+F:\Project\WebApp\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+F:\Project\WebApp\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+F:\Project\WebApp\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+F:\Project\WebApp\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+F:\Project\WebApp\Model\obj\Debug\netcoreapp3.1\Model.dll
+F:\Project\WebApp\Model\obj\Debug\netcoreapp3.1\Model.pdb

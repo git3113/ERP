@@ -1,0 +1,17 @@
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\IdGenerator.deps.json
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\IdGenerator.dll
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\ref\IdGenerator.dll
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\IdGenerator.pdb
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\Enum.dll
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\Util.dll
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\Util.pdb
+F:\Project\WebApp\IdGenerator\bin\Debug\net5.0\Enum.pdb
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.csprojAssemblyReference.cache
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.AssemblyInfoInputs.cache
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.AssemblyInfo.cs
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.csproj.CoreCompileInputs.cache
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.csproj.CopyComplete
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.dll
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\ref\IdGenerator.dll
+F:\Project\WebApp\IdGenerator\obj\Debug\net5.0\IdGenerator.pdb
