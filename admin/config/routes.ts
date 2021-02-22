@@ -43,6 +43,32 @@
     component: './TableList',
   },
   {
+    name: 'system',
+    icon: 'table',
+    path: '/sys',
+    access: 'canAdmin',
+    routes:[
+      {
+        path: '/sys/user',
+        name: 'user-list',
+        icon: 'smile',
+        component: './system/user',
+      },
+      {
+        path: '/sys/module',
+        name: 'module-list',
+        icon: 'smile',
+        component: './system/module',
+      },
+      {
+        path: '/sys/role',
+        name: 'role-list',
+        icon: 'smile',
+        component: './system/role',
+      },
+    ]
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
