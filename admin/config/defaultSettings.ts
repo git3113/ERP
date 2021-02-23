@@ -15,7 +15,7 @@ const Settings: LayoutSettings & {
   title: 'Ant Design Pro',
   pwa: false,
   logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
-  iconfontUrl: '',
+  iconfontUrl: '//at.alicdn.com/t/font_1266539_d2jqk1q16kg.js',
 };
 
 export default Settings;

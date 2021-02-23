@@ -148,6 +148,7 @@ const Login: React.FC = () => {
                     size: 'large',
                     prefix: <UserOutlined className={styles.prefixIcon} />,
                   }}
+                  initialValue="admin"
                   placeholder={intl.formatMessage({
                     id: 'pages.login.username.placeholder',
                     defaultMessage: '用户名: admin or user',
@@ -170,6 +171,7 @@ const Login: React.FC = () => {
                     size: 'large',
                     prefix: <LockOutlined className={styles.prefixIcon} />,
                   }}
+                  initialValue="ant.design"
                   placeholder={intl.formatMessage({
                     id: 'pages.login.password.placeholder',
                     defaultMessage: '密码: ant.design',

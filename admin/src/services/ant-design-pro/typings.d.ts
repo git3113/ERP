@@ -99,4 +99,17 @@ declare namespace API {
     type?: NoticeIconItemType;
   };
   
+  type MenuItem = {
+    children?: MenuDataItem[];
+    hideChildrenInMenu?: boolean;
+    hideInMenu?: boolean;
+    icon?: any;
+    locale?: string | false;
+    name?: string;
+    key?: string;
+    pro_layout_parentKeys?: string[];
+    path?: string;
+    parentKeys?: string[];
+    [key: string]: any;
+  }
 }

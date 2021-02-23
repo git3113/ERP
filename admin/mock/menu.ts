@@ -3,30 +3,61 @@ import { Request, Response } from 'express';
 // 代码中会兼容本地 service mock 以及部署站点的静态数据
 export default {
   // 支持值为 Object 和 Array
-  'GET /api/getmenu': (req: Request, res: Response) => {
+  'GET /api/getMenuData': (req: Request, res: Response) => {
     res.send([
       {
-        Id: '1',
-        Name: '首页',
-        Path: '/'
+        key: '1',
+        name: 'home',
+        icon: 'smile',
+        path: '/welcome',
       },
       {
-        Id: '2',
-        Name: '系统设置',
-        Path: '/system',
-        Children:[
+        key: '2',
+        name: 'system',
+        path: '/sys',
+        icon: 'smile',
+        children:[
           {
-            Id: '21',
-            Name: '用户管理',
-            Path: '/system/user'
+            key: '21',
+            name: 'user-list',
+            icon: 'smile',
+            path: '/sys/user'
           },
           {
-            Id: '22',
-            Name: '角色管理',
-            Path: 'system/role'
+            key: '22',
+            name: 'module-list',
+            icon: 'smile',
+            path: '/sys/module'
+          },
+          {
+            key: '23',
+            name: 'role-list',
+            icon: 'smile',
+            path: '/list'
           }
         ]
-      }
+      },
+      {
+        key: '3',
+        path: '/admin',
+        name: 'admin',
+        icon: 'smile',
+        access: 'canAdmin',
+        children: [
+          {
+            key: '31',
+            path: '/admin/sub-page',
+            name: 'sub-page',
+            icon: 'smile',
+          },
+        ],
+      },
+      {
+        key: '4',
+        name: 'list.table-list',
+        icon: 'smile',
+        path: '/list'
+      },
     ]);
   },
 };

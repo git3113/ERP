@@ -47,6 +47,7 @@
     icon: 'table',
     path: '/sys',
     access: 'canAdmin',
+    redirect: '/sys/user',
     routes:[
       {
         path: '/sys/user',
