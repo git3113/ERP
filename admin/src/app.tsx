@@ -39,7 +39,7 @@ export async function getInitialState(): Promise<{
   // 如果是登录页面，不执行
   if (history.location.pathname !== '/user/login') {
     const currentUser = await fetchUserInfo();
-    const menuData = await queryMenuData();
+    const menuData = await queryMenuData({currentUserId: (currentUser?.userid || '')});
     return {
       fetchUserInfo,
       currentUser,
@@ -58,6 +58,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
   return {
     rightContentRender: () => <RightContent />,
     disableContentMargin: false,
+    menuDataRender: () => initialState?.menuData || [] ,
     footerRender: () => <Footer />,
     onPageChange: () => {
       const { location } = history;

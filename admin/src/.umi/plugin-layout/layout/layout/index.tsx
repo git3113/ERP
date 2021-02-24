@@ -84,6 +84,7 @@ const BasicLayout = (props: any) => {
     ...restProps,
     ...getLayoutRender(currentPathConfig as any),
   };
+
   return (
     <ProLayout
       route={route}
@@ -100,8 +101,8 @@ const BasicLayout = (props: any) => {
       menu={{ locale: userConfig.locale }}
       // 支持了一个 patchMenus，其实应该用 menuDataRender
       menuDataRender={
-        initialState.menuData
-          ? () => initialState.menuData
+        userConfig.patchMenus
+          ? menuData => userConfig.patchMenus(menuData, initialInfo)
           : undefined
       }
       formatMessage={userConfig.formatMessage}
