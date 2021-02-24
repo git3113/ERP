@@ -11,32 +11,32 @@ export default {
         icon: 'icon-home-fill',
         path: '/welcome',
       },
-      {
-        key: '2',
-        name: 'system',
-        path: '/system',
-        icon: 'icon-set',
-        children:[
-          {
-            key: '21',
-            name: 'user-list',
-            icon: 'icon-rightalignment',
-            path: '/system/user'
-          },
-          {
-            key: '22',
-            name: 'module-list',
-            icon: 'icon-rightalignment',
-            path: '/system/module'
-          },
-          {
-            key: '23',
-            name: 'role-list',
-            icon: 'icon-rightalignment',
-            path: '/system/role'
-          }
-        ]
-      },
+      // {
+      //   key: '2',
+      //   name: 'system',
+      //   path: '/system',
+      //   icon: 'icon-set',
+      //   children:[
+      //     {
+      //       key: '21',
+      //       name: 'user-list',
+      //       icon: 'icon-rightalignment',
+      //       path: '/system/user'
+      //     },
+      //     {
+      //       key: '22',
+      //       name: 'module-list',
+      //       icon: 'icon-rightalignment',
+      //       path: '/system/module'
+      //     },
+      //     {
+      //       key: '23',
+      //       name: 'role-list',
+      //       icon: 'icon-rightalignment',
+      //       path: '/system/role'
+      //     }
+      //   ]
+      // },
       {
         key: '3',
         path: '/admin',

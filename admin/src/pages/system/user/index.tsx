@@ -213,8 +213,8 @@ const TableList: React.FC = () => {
     <PageContainer>
       <ProTable<API.RuleListItem, API.PageParams>
         headerTitle={intl.formatMessage({
-          id: 'pages.searchTable.title',
-          defaultMessage: '查询表格',
+          id: 'pages.system.user.list',
+          defaultMessage: '用户列表',
         })}
         actionRef={actionRef}
         rowKey="key"
@@ -226,10 +226,10 @@ const TableList: React.FC = () => {
             type="primary"
             key="primary"
             onClick={() => {
-              handleModalVisible(true);
+              handleUpdateModalVisible(true);
             }}
           >
-            <PlusOutlined /> <FormattedMessage id="pages.searchTable.new" defaultMessage="新建" />
+            <PlusOutlined /> <FormattedMessage id="pages.system.user.new" defaultMessage="新建" />
           </Button>,
         ]}
         request={rule}
@@ -275,10 +275,10 @@ const TableList: React.FC = () => {
       )}
       <ModalForm
         title={intl.formatMessage({
-          id: 'pages.searchTable.createForm.newRule',
-          defaultMessage: '新建规则',
+          id: 'pages.system.user.new',
+          defaultMessage: '新建用户',
         })}
-        width="400px"
+        width="800px"
         visible={createModalVisible}
         onVisibleChange={handleModalVisible}
         onFinish={async (value) => {
@@ -324,6 +324,7 @@ const TableList: React.FC = () => {
           setCurrentRow(undefined);
         }}
         updateModalVisible={updateModalVisible}
+        handleUpdateModalVisible={handleUpdateModalVisible}
         values={currentRow || {}}
       />
 
