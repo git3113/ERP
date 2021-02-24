@@ -9,13 +9,13 @@ const Settings: LayoutSettings & {
   primaryColor: '#1890ff',
   layout: 'mix',
   contentWidth: 'Fluid',
-  fixedHeader: false,
+  fixedHeader: true,
   fixSiderbar: true,
   colorWeak: false,
   title: 'Ant Design Pro',
   pwa: false,
   logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
-  iconfontUrl: '//at.alicdn.com/t/font_1266539_d2jqk1q16kg.js',
+  iconfontUrl: '//at.alicdn.com/t/font_2170210_ok8dtvaiime.js',
 };
 
 export default Settings;

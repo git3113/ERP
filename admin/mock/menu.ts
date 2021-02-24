@@ -8,31 +8,31 @@ export default {
       {
         key: '1',
         name: 'home',
-        icon: 'icon-shoucang1',
+        icon: 'icon-home-fill',
         path: '/welcome',
       },
       {
         key: '2',
         name: 'system',
         path: '/system',
-        icon: 'icon-shoucang1',
+        icon: 'icon-set',
         children:[
           {
             key: '21',
             name: 'user-list',
-            icon: 'icon-shoucang1',
+            icon: 'icon-rightalignment',
             path: '/system/user'
           },
           {
             key: '22',
             name: 'module-list',
-            icon: 'icon-shoucang1',
+            icon: 'icon-rightalignment',
             path: '/system/module'
           },
           {
             key: '23',
             name: 'role-list',
-            icon: 'icon-shoucang1',
+            icon: 'icon-rightalignment',
             path: '/system/role'
           }
         ]
@@ -41,21 +41,21 @@ export default {
         key: '3',
         path: '/admin',
         name: 'admin',
-        icon: 'icon-shoucang1',
+        icon: 'icon-logistic-logo',
         access: 'canAdmin',
         children: [
           {
             key: '31',
             path: '/admin/sub-page',
             name: 'sub-page',
-            icon: 'icon-shoucang1',
+            icon: 'icon-rightalignment',
           },
         ],
       },
       {
         key: '4',
         name: 'list.table-list',
-        icon: 'icon-shoucang1',
+        icon: 'icon-packaging',
         path: '/list'
       },
     ]);

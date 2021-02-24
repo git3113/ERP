@@ -29,7 +29,7 @@ functions/*
 .temp/**
 
 # umi
-.umi
+#.umi
 .umi-production
 
 # screenshot
