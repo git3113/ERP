@@ -45,28 +45,27 @@
   {
     name: 'system',
     icon: 'table',
-    path: '/sys',
+    path: '/system',
     access: 'canAdmin',
-    redirect: '/sys/user',
     routes:[
       {
-        path: '/sys/user',
+        path: '/system/user',
         name: 'user-list',
         icon: 'smile',
         component: './system/user',
       },
       {
-        path: '/sys/module',
+        path: '/system/module',
         name: 'module-list',
         icon: 'smile',
         component: './system/module',
       },
       {
-        path: '/sys/role',
+        path: '/system/role',
         name: 'role-list',
         icon: 'smile',
         component: './system/role',
-      },
+      }
     ]
   },
   {

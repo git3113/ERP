@@ -8,32 +8,32 @@ export default {
       {
         key: '1',
         name: 'home',
-        icon: 'smile',
+        icon: 'icon-shoucang1',
         path: '/welcome',
       },
       {
         key: '2',
         name: 'system',
-        path: '/sys',
-        icon: 'smile',
+        path: '/system',
+        icon: 'icon-shoucang1',
         children:[
           {
             key: '21',
             name: 'user-list',
-            icon: 'smile',
-            path: '/sys/user'
+            icon: 'icon-shoucang1',
+            path: '/system/user'
           },
           {
             key: '22',
             name: 'module-list',
-            icon: 'smile',
-            path: '/sys/module'
+            icon: 'icon-shoucang1',
+            path: '/system/module'
           },
           {
             key: '23',
             name: 'role-list',
-            icon: 'smile',
-            path: '/list'
+            icon: 'icon-shoucang1',
+            path: '/system/role'
           }
         ]
       },
@@ -41,21 +41,21 @@ export default {
         key: '3',
         path: '/admin',
         name: 'admin',
-        icon: 'smile',
+        icon: 'icon-shoucang1',
         access: 'canAdmin',
         children: [
           {
             key: '31',
             path: '/admin/sub-page',
             name: 'sub-page',
-            icon: 'smile',
+            icon: 'icon-shoucang1',
           },
         ],
       },
       {
         key: '4',
         name: 'list.table-list',
-        icon: 'smile',
+        icon: 'icon-shoucang1',
         path: '/list'
       },
     ]);
