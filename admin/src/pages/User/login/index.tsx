@@ -12,7 +12,8 @@ import ProForm, { ProFormCaptcha, ProFormCheckbox, ProFormText } from '@ant-desi
 import { useIntl, Link, history, FormattedMessage, SelectLang, useModel } from 'umi';
 import Footer from '@/components/Footer';
 import { login, getFakeCaptcha } from '@/services/ant-design-pro/login';
-
+var MD5 = require('md5')
+// import MD5 from 'md5'
 import styles from './index.less';
 
 const LoginMessage: React.FC<{
@@ -46,8 +47,9 @@ const Login: React.FC = () => {
 
   const intl = useIntl();
 
-  const fetchUserInfo = async () => {
-    const userInfo = await initialState?.fetchUserInfo?.();
+  const fetchUserInfo = async (user:any) => {
+    // const userInfo = await initialState?.fetchUserInfo?.();
+    const userInfo = {...user, access: 'admin'}
     if (userInfo) {
       setInitialState({
         ...initialState,
@@ -60,10 +62,15 @@ const Login: React.FC = () => {
     setSubmitting(true);
     try {
       // 登录
-      const msg = await login({ ...values, type });
-      if (msg.status === 'ok') {
+      const msg = await login({ ...values, type, PassWord: MD5(values.PassWord) });
+      if (msg.Success) {
+        if(localStorage.getItem('token')==null||localStorage.getItem('token')==undefined){
+          localStorage.setItem('token','');
+        }
+        localStorage.setItem('token',msg.Data[0]?.token);
+        // access = msg.access;
         message.success('登录成功！');
-        await fetchUserInfo();
+        await fetchUserInfo(msg.Data[0]);
         goto();
         return;
       }
@@ -143,7 +150,7 @@ const Login: React.FC = () => {
             {type === 'account' && (
               <>
                 <ProFormText
-                  name="username"
+                  name="Account"
                   fieldProps={{
                     size: 'large',
                     prefix: <UserOutlined className={styles.prefixIcon} />,
@@ -166,12 +173,12 @@ const Login: React.FC = () => {
                   ]}
                 />
                 <ProFormText.Password
-                  name="password"
+                  name="PassWord"
                   fieldProps={{
                     size: 'large',
                     prefix: <LockOutlined className={styles.prefixIcon} />,
                   }}
-                  initialValue="ant.design"
+                  initialValue="0000"
                   placeholder={intl.formatMessage({
                     id: 'pages.login.password.placeholder',
                     defaultMessage: '密码: ant.design',

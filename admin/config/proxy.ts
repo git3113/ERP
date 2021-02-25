@@ -10,12 +10,12 @@ export default {
     '/api/': {
       target: 'https://preview.pro.ant.design',
       changeOrigin: true,
-      pathRewrite: { '^': '' },
+      pathRewrite: { '^/api/': '' },
     },
   },
   test: {
     '/api/': {
-      target: 'https://preview.pro.ant.design',
+      target: 'http://39.107.101.64:20001',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },

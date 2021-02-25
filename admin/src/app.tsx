@@ -121,7 +121,11 @@ const codeMessage = {
  * 请求前拦截
 */
 const authHeaderInterceptor = (url: string, options: RequestOptionsInit) => {
-  const authHeader = { Authorization: 'Bearer xxxxxx' };
+  let token = localStorage.getItem('token')
+  if(!token){
+    token = ""
+  }
+  const authHeader = { Authorization: token};
   return {
     url: `${url}`,
     options: { ...options, interceptors: true, headers: authHeader },

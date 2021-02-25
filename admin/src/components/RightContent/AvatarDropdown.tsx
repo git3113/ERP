@@ -61,14 +61,14 @@ const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu }) => {
       />
     </span>
   );
-
+  console.log(initialState)
   if (!initialState) {
     return loading;
   }
 
   const { currentUser } = initialState;
-
-  if (!currentUser || !currentUser.name) {
+  console.log(currentUser)
+  if (!currentUser || !currentUser.UserName) {
     return loading;
   }
 
@@ -97,8 +97,8 @@ const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu }) => {
   return (
     <HeaderDropdown overlay={menuHeaderDropdown}>
       <span className={`${styles.action} ${styles.account}`}>
-        <Avatar size="small" className={styles.avatar} src={currentUser.avatar} alt="avatar" />
-        <span className={`${styles.name} anticon`}>{currentUser.name}</span>
+        <Avatar size="small" className={styles.avatar} src={currentUser.avatar } alt="avatar" />
+        <span className={`${styles.name} anticon`}>{currentUser.UserName}</span>
       </span>
     </HeaderDropdown>
   );

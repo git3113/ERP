@@ -16,7 +16,6 @@ const ENVTagColor = {
 
 const GlobalHeaderRight: React.FC = () => {
   const { initialState } = useModel('@@initialState');
-
   if (!initialState || !initialState.settings) {
     return null;
   }
@@ -48,9 +47,9 @@ const GlobalHeaderRight: React.FC = () => {
             value: 'Pro Layout',
           },
         ]}
-        // onSearch={value => {
-        //   console.log('input', value);
-        // }}
+        onSearch={value => {
+          console.log('input', value);
+        }}
       />
       <span
         className={styles.action}
