@@ -125,7 +125,7 @@ const authHeaderInterceptor = (url: string, options: RequestOptionsInit) => {
   return {
     url: `${url}`,
     options: { ...options, interceptors: true, headers: authHeader },
-  };
+  }; 
 };
 
 /** 异常处理程序
