@@ -7,7 +7,7 @@ namespace Web.Code
 {
     public class OperatorInfo
     {
-        public long? UserId { get; set; }
+        public long UserId { get; set; }
         public int? Status { get; set; }
         public int? IsOnline { get; set; }
         public string UserName { get; set; }

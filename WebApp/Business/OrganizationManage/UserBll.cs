@@ -144,7 +144,7 @@ namespace Business.OrganizationManage
                     }
                     else
                     {
-                        obj.Message = "密码不正确，请重新输入";
+                        obj.Message = "用户名或密码不正确，请重新输入";
                     }
                 }
                 else
@@ -158,6 +158,17 @@ namespace Business.OrganizationManage
             }
             return obj;
         }
+
+        public async Task<Org_User> LoginOff(OperatorInfo currentUser)
+        {
+            Org_User user = await userService.GetEntity(currentUser.UserId);
+            if (user != null)
+            {
+                user.IsOnline = 1;
+            }
+            return user;
+        }
+
         #endregion
 
         #region 提交数据

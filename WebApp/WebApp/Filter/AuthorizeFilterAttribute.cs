@@ -38,7 +38,7 @@ namespace WebApp.Filter
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            string token = context.HttpContext.Request.Headers["ApiToken"].ParseToString();
+            string token = context.HttpContext.Request.Headers["Authorization"].ParseToString();
             OperatorInfo user = await Operator.Instance.Current(token);
             if (user != null)
             {

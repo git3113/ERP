@@ -17,8 +17,8 @@ namespace Web.Code
             get { return new Operator(); }
         }
 
-        private string LoginProvider = GlobalContext.Configuration.GetSection("SystemConfig:LoginProvider").Value;
-        private string TokenName = "UserToken"; //cookie name or session name
+        private readonly string LoginProvider = GlobalContext.Configuration.GetSection("SystemConfig:LoginProvider").Value;
+        private readonly string TokenName = "UserToken"; //cookie name or session name
 
         public async Task AddCurrent(string token)
         {
