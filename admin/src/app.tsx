@@ -6,7 +6,7 @@ import type { RequestConfig, RunTimeLayoutConfig } from 'umi';
 import { history } from 'umi';
 import RightContent from '@/components/RightContent';
 import Footer from '@/components/Footer';
-import type { ResponseError } from 'umi-request';
+import type { ResponseError, RequestOptionsInit } from 'umi-request';
 import { currentUser as queryCurrentUser, getMenuData as queryMenuData } from './services/ant-design-pro/api';
 import { BookOutlined, LinkOutlined } from '@ant-design/icons';
 import { MenuDataItem } from '@umijs/route-utils';
@@ -116,6 +116,17 @@ const codeMessage = {
   504: '网关超时。',
 };
 
+/**
+ * 请求前拦截
+*/
+const authHeaderInterceptor = (url: string, options: RequestOptionsInit) => {
+  const authHeader = { Authorization: 'Bearer xxxxxx' };
+  return {
+    url: `${url}`,
+    options: { ...options, interceptors: true, headers: authHeader },
+  };
+};
+
 /** 异常处理程序
  * @see https://beta-pro.ant.design/docs/request-cn
  */
@@ -143,4 +154,6 @@ const errorHandler = (error: ResponseError) => {
 // https://umijs.org/zh-CN/plugins/plugin-request
 export const request: RequestConfig = {
   errorHandler,
+  // 新增自动添加AccessToken的请求前拦截器
+  requestInterceptors: [authHeaderInterceptor],
 };
