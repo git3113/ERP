@@ -4,16 +4,16 @@ import { request } from 'umi';
 
 import { MenuDataItem } from '@umijs/route-utils';
 /** 获取当前的用户 GET /api/currentUser */
-export async function currentUser(options?: { [key: string]: any }) {
-  return request<API.CurrentUser>('/api/currentUser', {
+export async function currentUser<T>(options?: { [key: string]: any }) {
+  return request<API.CommonResult<T>>('/api/User/GetCurrentUser', {
     method: 'GET',
     ...(options || {}),
   });
 }
 
 /** 获取当前的用户 GET /api/currentUser */
-export async function getMenuData(options?: { [key: string]: any }) {
-  return request<MenuDataItem[]>('/api/getMenuData', {
+export async function getMenuData<T>(options?: { [key: string]: any }) {
+  return request<API.CommonResult<T>>('/api/System/GetMenuData', {
     method: 'GET',
     ...(options || {}),
   });

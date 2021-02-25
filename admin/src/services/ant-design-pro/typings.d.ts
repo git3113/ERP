@@ -4,7 +4,7 @@
 declare namespace API {
   type CurrentUser = {
     UserName?: string;
-
+    RealName?: string;
     name?: string;
     avatar?: string;
     userid?: string;
@@ -31,6 +31,8 @@ declare namespace API {
     status?: string;
     type?: string;
     currentAuthority?: string;
+    Tag?: any;
+    Message?: string;
   };
 
   type PageParams = {
@@ -67,9 +69,8 @@ declare namespace API {
 
   type LoginParams = {
     Account?: string;
-    PassWord?: string;
-    username?: string;
-    password?: string;
+    Password?: string;
+    UserName?: string;
     autoLogin?: boolean;
     type?: string;
   };
@@ -117,5 +118,11 @@ declare namespace API {
     path?: string;
     parentKeys?: string[];
     [key: string]: any;
+  }
+
+  type CommonResult<T> = {
+    Tag?: number;
+    Data?: T;
+
   }
 }

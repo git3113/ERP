@@ -31,6 +31,7 @@ const LoginMessage: React.FC<{
 
 /** 此方法会跳转到 redirect 参数所在的位置 */
 const goto = () => {
+  
   if (!history) return;
   setTimeout(() => {
     const { query } = history.location;
@@ -47,35 +48,43 @@ const Login: React.FC = () => {
 
   const intl = useIntl();
 
-  const fetchUserInfo = async (user:any) => {
-    // const userInfo = await initialState?.fetchUserInfo?.();
-    const userInfo = {...user, access: 'admin'}
-    if (userInfo) {
+  const fetchUserInfo = async () => {
+    const userInfo = await initialState?.fetchUserInfo?.();
+    const userMenu = await initialState?.fetchUserMenu?.();
+    const menus = userMenu?.map(a => {
+      return {
+        Id: a.Id,
+        name: a.Name,
+        path: a.Path,
+        icon: a.Icon
+      }
+    })
       setInitialState({
         ...initialState,
         currentUser: userInfo,
+        menuData: menus,
       });
-    }
   };
 
   const handleSubmit = async (values: API.LoginParams) => {
     setSubmitting(true);
     try {
       // 登录
-      const msg = await login({ ...values, type, PassWord: MD5(values.PassWord) });
-      if (msg.Success) {
+      const msg = await login({ ...values, type, Password: MD5(values.Password) });
+      if (msg.Tag == 1) {
         if(localStorage.getItem('token')==null||localStorage.getItem('token')==undefined){
           localStorage.setItem('token','');
         }
-        localStorage.setItem('token',msg.Data[0]?.token);
+        localStorage.setItem('token',msg.Data?.ApiToken);
         // access = msg.access;
-        message.success('登录成功！');
-        await fetchUserInfo(msg.Data[0]);
+        message.success(msg.Message);
+        await fetchUserInfo();
         goto();
         return;
       }
       // 如果失败去设置用户错误信息
       setUserLoginState(msg);
+      message.error(msg.Message);
     } catch (error) {
       message.error('登录失败，请重试！');
     }
@@ -150,7 +159,7 @@ const Login: React.FC = () => {
             {type === 'account' && (
               <>
                 <ProFormText
-                  name="Account"
+                  name="UserName"
                   fieldProps={{
                     size: 'large',
                     prefix: <UserOutlined className={styles.prefixIcon} />,
@@ -173,12 +182,12 @@ const Login: React.FC = () => {
                   ]}
                 />
                 <ProFormText.Password
-                  name="PassWord"
+                  name="Password"
                   fieldProps={{
                     size: 'large',
                     prefix: <LockOutlined className={styles.prefixIcon} />,
                   }}
-                  initialValue="0000"
+                  initialValue="123456"
                   placeholder={intl.formatMessage({
                     id: 'pages.login.password.placeholder',
                     defaultMessage: '密码: ant.design',

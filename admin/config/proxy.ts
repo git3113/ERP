@@ -15,7 +15,7 @@ export default {
   },
   test: {
     '/api/': {
-      target: 'http://39.107.101.64:20001',
+      target: 'http://localhost:8081/',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },

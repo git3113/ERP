@@ -22,15 +22,15 @@ export async function getFakeCaptcha(
 
 /** 登录接口 POST /api/login/outLogin */
 export async function outLogin(options?: { [key: string]: any }) {
-  return request<Record<string, any>>('/api/login/outLogin', {
-    method: 'GET',
+  return request<Record<string, any>>('/api/User/LoginOff', {
+    method: 'POST',
     ...(options || {}),
   });
 }
 
 /** 登录接口 POST /api/login/account */
 export async function login(body: API.LoginParams, options?: { [key: string]: any }) {
-  return request<API.LoginResult>('/api/Auth/Login', {
+  return request<API.LoginResult>('/api/User/Login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

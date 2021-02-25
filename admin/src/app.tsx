@@ -8,7 +8,7 @@ import RightContent from '@/components/RightContent';
 import Footer from '@/components/Footer';
 import type { ResponseError, RequestOptionsInit } from 'umi-request';
 import { currentUser as queryCurrentUser, getMenuData as queryMenuData } from './services/ant-design-pro/api';
-import { BookOutlined, LinkOutlined } from '@ant-design/icons';
+import { ApiFilled, BookOutlined, LinkOutlined } from '@ant-design/icons';
 import { MenuDataItem } from '@umijs/route-utils';
 const isDev = process.env.NODE_ENV === 'development';
 
@@ -25,11 +25,21 @@ export async function getInitialState(): Promise<{
   menuData?: MenuDataItem[];
   currentUser?: API.CurrentUser;
   fetchUserInfo?: () => Promise<API.CurrentUser | undefined>;
+  fetchUserMenu?: () => Promise<MenuDataItem[] | undefined>;
 }> {
   const fetchUserInfo = async () => {
     try {
-      const currentUser = await queryCurrentUser();
-      return currentUser;
+      const currentUser = await queryCurrentUser<API.CurrentUser>();
+      return currentUser.Data;
+    } catch (error) {
+      history.push('/user/login');
+    }
+    return undefined;
+  };
+  const fetchUserMenu = async () => {
+    try {
+      const currentMenu = await queryMenuData<MenuDataItem[]>();
+      return currentMenu.Data;
     } catch (error) {
       history.push('/user/login');
     }
@@ -39,16 +49,27 @@ export async function getInitialState(): Promise<{
   // 如果是登录页面，不执行
   if (history.location.pathname !== '/user/login') {
     const currentUser = await fetchUserInfo();
-    const menuData = await queryMenuData({currentUserId: (currentUser?.userid || '')});
+    const currentMenus = await queryMenuData<MenuDataItem[]>();
+   
+    const menus = currentMenus.Data?.map(a => {
+      return {
+        Id: a.Id,
+        name: a.Name,
+        path: a.Path,
+        icon: a.Icon
+      }
+    })
     return {
       fetchUserInfo,
+      fetchUserMenu,
       currentUser,
-      menuData,
+      menuData: menus,
       settings: {},
     };
   }
   return {
     fetchUserInfo,
+    fetchUserMenu,
     settings: {},
   };
 }
@@ -66,6 +87,9 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
       if (!initialState?.currentUser && location.pathname !== '/user/login') {
         history.push('/user/login');
       }
+      //else if(localStorage.getItem("token")  && location.pathname === '/user/login'){
+        // history.replace('/welcome')
+      //}
     },
     links: isDev
       ? [
@@ -140,7 +164,7 @@ const errorHandler = (error: ResponseError) => {
   if (response && response.status) {
     const errorText = codeMessage[response.status] || response.statusText;
     const { status, url } = response;
-
+    // localStorage.removeItem("token")
     notification.error({
       message: `请求错误 ${status}: ${url}`,
       description: errorText,
