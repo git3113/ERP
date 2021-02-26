@@ -5910,11 +5910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj",
       "projectName": "Web.Code",
-      "projectPath": "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Web.Code\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Web.Code\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5936,14 +5936,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj"
+            "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj"
             },
-            "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj"
+            "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj"
             },
-            "F:\\Project\\WebApp\\Util\\Util.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+            "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
             }
           }
         }
@@ -5975,7 +5975,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

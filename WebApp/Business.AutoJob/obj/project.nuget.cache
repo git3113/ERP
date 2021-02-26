@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OsD9xZcD/EsC0X220dS4w08UYDOGWBJSOPFncPhCeOFIW3H+FKG64ZR/WcPVld3VQlkSvgkqlD/42BkbC21Cpg==",
+  "dgSpecHash": "IIFKFv/3vT5v3lLpQi97n0fHonaPDg1wpZaNcoX8qFi0K7YUHH6RuZtTJnJ4TlulBEzEAVmucsKUoh4qGr/UVw==",
   "success": true,
-  "projectFilePath": "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
+  "projectFilePath": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.1\\microsoft.aspnetcore.jsonpatch.5.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.1.nupkg.sha512",

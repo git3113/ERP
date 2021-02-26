@@ -5954,11 +5954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Entity\\Entity.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "F:\\Project\\WebApp\\Entity\\Entity.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Entity\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5980,14 +5980,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj"
+            "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj"
             },
-            "F:\\Project\\WebApp\\Util\\Util.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+            "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
             },
-            "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj"
+            "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj"
             }
           }
         }
@@ -6019,7 +6019,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

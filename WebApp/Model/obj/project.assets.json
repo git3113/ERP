@@ -619,11 +619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Model\\Model.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "F:\\Project\\WebApp\\Model\\Model.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Model\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -645,8 +645,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Project\\WebApp\\Util\\Util.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+            "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
             }
           }
         }
@@ -678,7 +678,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

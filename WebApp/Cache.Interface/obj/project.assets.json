@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
       "projectName": "Cache.Interface",
-      "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Cache.Interface\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

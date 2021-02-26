@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\WebApp\\Enum\\Enum.csproj": {}
+    "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {}
   },
   "projects": {
-    "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
+    "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Enum\\Enum.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj",
         "projectName": "Enum",
-        "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Enum\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Enum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -598,11 +598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Util\\Util.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj",
       "projectName": "Util",
-      "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Util\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Util\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -624,8 +624,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj"
+            "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj"
             }
           }
         }
@@ -667,7 +667,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

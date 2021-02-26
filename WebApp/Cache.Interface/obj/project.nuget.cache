@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eq0LzLAYatyW/HaNpv/AqD0EXxk5UHkVYSvLTmn1JMBd2rvAG1oA0PZXrOOP/sSwluRvBjuHPBSQN+ier8X0fQ==",
+  "dgSpecHash": "iZWnhvNNMwiPMJSYPZI3XrXdOclOHceQAhz9bXM7F00cPJQb7ZJHHOP++z5jlQqtMQSseacAYH9IsaBIHZlvyA==",
   "success": true,
-  "projectFilePath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+  "projectFilePath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -9,3 +9,14 @@ F:\Project\WebApp\Enum\obj\Debug\net5.0\Enum.csproj.CoreCompileInputs.cache
 F:\Project\WebApp\Enum\obj\Debug\net5.0\Enum.dll
 F:\Project\WebApp\Enum\obj\Debug\net5.0\ref\Enum.dll
 F:\Project\WebApp\Enum\obj\Debug\net5.0\Enum.pdb
+F:\github\ERP\WebApp\Enum\bin\Debug\net5.0\Enum.deps.json
+F:\github\ERP\WebApp\Enum\bin\Debug\net5.0\Enum.dll
+F:\github\ERP\WebApp\Enum\bin\Debug\net5.0\ref\Enum.dll
+F:\github\ERP\WebApp\Enum\bin\Debug\net5.0\Enum.pdb
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\Enum.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\Enum.AssemblyInfoInputs.cache
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\Enum.AssemblyInfo.cs
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\Enum.csproj.CoreCompileInputs.cache
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\Enum.dll
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\ref\Enum.dll
+F:\github\ERP\WebApp\Enum\obj\Debug\net5.0\Enum.pdb

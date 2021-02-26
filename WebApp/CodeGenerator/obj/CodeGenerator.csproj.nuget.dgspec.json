@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\WebApp\\CodeGenerator\\CodeGenerator.csproj": {}
+    "F:\\github\\ERP\\WebApp\\CodeGenerator\\CodeGenerator.csproj": {}
   },
   "projects": {
-    "F:\\Project\\WebApp\\CodeGenerator\\CodeGenerator.csproj": {
+    "F:\\github\\ERP\\WebApp\\CodeGenerator\\CodeGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\CodeGenerator\\CodeGenerator.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\CodeGenerator\\CodeGenerator.csproj",
         "projectName": "CodeGenerator",
-        "projectPath": "F:\\Project\\WebApp\\CodeGenerator\\CodeGenerator.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\CodeGenerator\\CodeGenerator.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\CodeGenerator\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\CodeGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

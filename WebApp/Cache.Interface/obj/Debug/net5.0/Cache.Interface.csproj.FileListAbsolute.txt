@@ -9,3 +9,14 @@ F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.csproj.CoreCo
 F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.dll
 F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\ref\Cache.Interface.dll
 F:\Project\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.pdb
+F:\github\ERP\WebApp\Cache.Interface\bin\Debug\net5.0\Cache.Interface.deps.json
+F:\github\ERP\WebApp\Cache.Interface\bin\Debug\net5.0\Cache.Interface.dll
+F:\github\ERP\WebApp\Cache.Interface\bin\Debug\net5.0\ref\Cache.Interface.dll
+F:\github\ERP\WebApp\Cache.Interface\bin\Debug\net5.0\Cache.Interface.pdb
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.AssemblyInfoInputs.cache
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.AssemblyInfo.cs
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.csproj.CoreCompileInputs.cache
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.dll
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\ref\Cache.Interface.dll
+F:\github\ERP\WebApp\Cache.Interface\obj\Debug\net5.0\Cache.Interface.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zrwnD7CfZKpfEsmJKbGAYJOzML7BSGbwMEQK+C01wUptvVSHWPsduq7kWdCPc3IyYhS5MF6iJGVGmAYTrZCMWQ==",
+  "dgSpecHash": "Dqt5dxx7C6mZjksEhpfFznncTz9TayzJqvG9ytrytl73X+rcM+EbmcrAAr/rIR5oJVKKasTsMc0HIxn9C5xsng==",
   "success": true,
-  "projectFilePath": "F:\\Project\\WebApp\\CodeGenerator\\CodeGenerator.csproj",
+  "projectFilePath": "F:\\github\\ERP\\WebApp\\CodeGenerator\\CodeGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

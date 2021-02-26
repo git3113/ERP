@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj": {}
+    "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj": {}
   },
   "projects": {
-    "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj": {
+    "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
         "projectName": "Business.AutoJob",
-        "projectPath": "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Business.AutoJob\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,17 +33,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Business\\Business.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Business\\Business.csproj"
+              "F:\\github\\ERP\\WebApp\\Business\\Business.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Business\\Business.csproj"
               },
-              "F:\\Project\\WebApp\\Entity\\Entity.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Entity\\Entity.csproj"
+              "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj"
               },
-              "F:\\Project\\WebApp\\Service\\Service.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Service\\Service.csproj"
+              "F:\\github\\ERP\\WebApp\\Service\\Service.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Service\\Service.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -81,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Business\\Business.csproj": {
+    "F:\\github\\ERP\\WebApp\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Business\\Business.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "F:\\Project\\WebApp\\Business\\Business.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Business\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -114,11 +114,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Entity\\Entity.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Entity\\Entity.csproj"
+              "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj"
               },
-              "F:\\Project\\WebApp\\Service\\Service.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Service\\Service.csproj"
+              "F:\\github\\ERP\\WebApp\\Service\\Service.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Service\\Service.csproj"
               }
             }
           }
@@ -150,18 +150,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
+    "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
         "projectName": "Cache.Factory",
-        "projectPath": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Cache.Factory\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -183,17 +183,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
               },
-              "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj"
+              "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj"
               },
-              "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj"
+              "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -225,18 +225,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+    "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
         "projectName": "Cache.Interface",
-        "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Cache.Interface\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -284,18 +284,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Data.EF\\Data.EF.csproj": {
+    "F:\\github\\ERP\\WebApp\\Data.EF\\Data.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Data.EF\\Data.EF.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Data.EF\\Data.EF.csproj",
         "projectName": "Data.EF",
-        "projectPath": "F:\\Project\\WebApp\\Data.EF\\Data.EF.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Data.EF\\Data.EF.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Data.EF\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Data.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -317,11 +317,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data\\Data.csproj"
+              "F:\\github\\ERP\\WebApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -363,18 +363,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj": {
+    "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj",
         "projectName": "Data.Repository",
-        "projectPath": "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Data.Repository\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Data.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -396,14 +396,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Data.EF\\Data.EF.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data.EF\\Data.EF.csproj"
+              "F:\\github\\ERP\\WebApp\\Data.EF\\Data.EF.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data.EF\\Data.EF.csproj"
               },
-              "F:\\Project\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data\\Data.csproj"
+              "F:\\github\\ERP\\WebApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -435,18 +435,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Data\\Data.csproj": {
+    "F:\\github\\ERP\\WebApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Data\\Data.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "F:\\Project\\WebApp\\Data\\Data.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Data\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -468,8 +468,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -515,18 +515,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Entity\\Entity.csproj": {
+    "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Entity\\Entity.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "F:\\Project\\WebApp\\Entity\\Entity.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Entity\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -548,14 +548,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj"
+              "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               },
-              "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj"
+              "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj"
               }
             }
           }
@@ -587,18 +587,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
+    "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Enum\\Enum.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj",
         "projectName": "Enum",
-        "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Enum\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Enum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -646,18 +646,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj": {
+    "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj",
         "projectName": "IdGenerator",
-        "projectPath": "F:\\Project\\WebApp\\IdGenerator\\IdGenerator.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\IdGenerator\\IdGenerator.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\IdGenerator\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\IdGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -679,8 +679,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -712,18 +712,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj": {
+    "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj",
         "projectName": "MemoryCache",
-        "projectPath": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\MemoryCache\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -745,11 +745,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -781,18 +781,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Model\\Model.csproj": {
+    "F:\\github\\ERP\\WebApp\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Model\\Model.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "F:\\Project\\WebApp\\Model\\Model.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Model\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -814,8 +814,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -847,18 +847,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj": {
+    "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj",
         "projectName": "RedisCache",
-        "projectPath": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\RedisCache\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\RedisCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -880,14 +880,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
               },
-              "F:\\Project\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data\\Data.csproj"
+              "F:\\github\\ERP\\WebApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -925,18 +925,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Service\\Service.csproj": {
+    "F:\\github\\ERP\\WebApp\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Service\\Service.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "F:\\Project\\WebApp\\Service\\Service.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Service\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -958,20 +958,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj"
+              "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj"
               },
-              "F:\\Project\\WebApp\\Entity\\Entity.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Entity\\Entity.csproj"
+              "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj"
               },
-              "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj"
+              "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj"
               },
-              "F:\\Project\\WebApp\\Model\\Model.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Model\\Model.csproj"
+              "F:\\github\\ERP\\WebApp\\Model\\Model.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Model\\Model.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -1003,18 +1003,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Util\\Util.csproj": {
+    "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Util\\Util.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj",
         "projectName": "Util",
-        "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Util\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Util\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1036,8 +1036,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj"
+              "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj"
               }
             }
           }
@@ -1079,18 +1079,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj": {
+    "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj",
         "projectName": "Web.Code",
-        "projectPath": "F:\\Project\\WebApp\\Web.Code\\Web.Code.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Web.Code\\Web.Code.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Web.Code\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Web.Code\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1112,14 +1112,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj"
               },
-              "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data.Repository\\Data.Repository.csproj"
+              "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data.Repository\\Data.Repository.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -1151,7 +1151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

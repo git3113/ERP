@@ -6077,11 +6077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
       "projectName": "Business.AutoJob",
-      "projectPath": "F:\\Project\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\Business.AutoJob.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Business.AutoJob\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Business.AutoJob\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6103,17 +6103,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Project\\WebApp\\Business\\Business.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Business\\Business.csproj"
+            "F:\\github\\ERP\\WebApp\\Business\\Business.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Business\\Business.csproj"
             },
-            "F:\\Project\\WebApp\\Entity\\Entity.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Entity\\Entity.csproj"
+            "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Entity\\Entity.csproj"
             },
-            "F:\\Project\\WebApp\\Service\\Service.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Service\\Service.csproj"
+            "F:\\github\\ERP\\WebApp\\Service\\Service.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Service\\Service.csproj"
             },
-            "F:\\Project\\WebApp\\Util\\Util.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+            "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
             }
           }
         }
@@ -6151,7 +6151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

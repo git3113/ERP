@@ -5840,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
+      "projectUniqueName": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
       "projectName": "Cache.Factory",
-      "projectPath": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
+      "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\WebApp\\Cache.Factory\\obj\\",
+      "outputPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5866,17 +5866,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+            "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
             },
-            "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj"
+            "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj"
             },
-            "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj"
+            "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj"
             },
-            "F:\\Project\\WebApp\\Util\\Util.csproj": {
-              "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+            "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+              "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
             }
           }
         }
@@ -5908,7 +5908,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

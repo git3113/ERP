@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sCsLSIQAsSTPRyaV6G/6uMFmClPIs+5NPsu/yntZ/mxOrk8oXDUkypHshvtrCHm79Q5UZopOLhLzsa4re7RYRg==",
+  "dgSpecHash": "o9h1aSZ/UtATJIrrFlx2oaW1aeGyYbqQtsf9UVsPiRuSkqpzZWB5d88d7ElFyD+JQR1c+7Uum9JPxAZ/YMnUhQ==",
   "success": true,
-  "projectFilePath": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj",
+  "projectFilePath": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.1\\microsoft.aspnetcore.jsonpatch.5.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.1.nupkg.sha512",

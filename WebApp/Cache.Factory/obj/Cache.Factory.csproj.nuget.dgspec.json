@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {}
+    "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {}
   },
   "projects": {
-    "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
+    "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
         "projectName": "Cache.Factory",
-        "projectPath": "F:\\Project\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\Cache.Factory.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Cache.Factory\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Cache.Factory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,17 +33,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
               },
-              "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj"
+              "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj"
               },
-              "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj"
+              "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -75,18 +75,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+    "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
         "projectName": "Cache.Interface",
-        "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Cache.Interface\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -134,18 +134,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Data\\Data.csproj": {
+    "F:\\github\\ERP\\WebApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Data\\Data.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "F:\\Project\\WebApp\\Data\\Data.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Data\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -167,8 +167,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -214,18 +214,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
+    "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Enum\\Enum.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj",
         "projectName": "Enum",
-        "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Enum\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Enum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -273,18 +273,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj": {
+    "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj",
         "projectName": "MemoryCache",
-        "projectPath": "F:\\Project\\WebApp\\MemoryCache\\MemoryCache.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\MemoryCache.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\MemoryCache\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\MemoryCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -306,11 +306,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -342,18 +342,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj": {
+    "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj",
         "projectName": "RedisCache",
-        "projectPath": "F:\\Project\\WebApp\\RedisCache\\RedisCache.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\RedisCache\\RedisCache.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\RedisCache\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\RedisCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -375,14 +375,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
+              "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Cache.Interface\\Cache.Interface.csproj"
               },
-              "F:\\Project\\WebApp\\Data\\Data.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Data\\Data.csproj"
+              "F:\\github\\ERP\\WebApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Data\\Data.csproj"
               },
-              "F:\\Project\\WebApp\\Util\\Util.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj"
+              "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj"
               }
             }
           }
@@ -420,18 +420,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Project\\WebApp\\Util\\Util.csproj": {
+    "F:\\github\\ERP\\WebApp\\Util\\Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WebApp\\Util\\Util.csproj",
+        "projectUniqueName": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj",
         "projectName": "Util",
-        "projectPath": "F:\\Project\\WebApp\\Util\\Util.csproj",
+        "projectPath": "F:\\github\\ERP\\WebApp\\Util\\Util.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WebApp\\Util\\obj\\",
+        "outputPath": "F:\\github\\ERP\\WebApp\\Util\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -453,8 +453,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Project\\WebApp\\Enum\\Enum.csproj": {
-                "projectPath": "F:\\Project\\WebApp\\Enum\\Enum.csproj"
+              "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj": {
+                "projectPath": "F:\\github\\ERP\\WebApp\\Enum\\Enum.csproj"
               }
             }
           }
@@ -496,7 +496,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
